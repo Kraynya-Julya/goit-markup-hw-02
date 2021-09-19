@@ -4,8 +4,154 @@
     --accent-color: #2196F3;
     --primary--bg-color: #ffffff;
     --second-color: #2F303A;
-    --second-text-color:#757575;
+    --second-text-color:#757575
+
+}
 
 
-
+    .page {
+        background-color: #ffffff;
+        color: var(--primary-text-color);
+    }
+    .page-list-item {
+        color: var(--primary-text-color);
+        color: var(--accent-color);
+    }
+    .logo {
+        color:var(--primary-text-color);
+    }
+    .list {
+        list-style: none;
+    }
     
+    .link {
+        text-decoration: none;
+    }
+
+    /* ------------------LOGO---------------- */
+    .logo-item {
+        font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--accent-color)
+    }
+
+    .logo-righr {
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height 1.19; 
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+    }
+.site-nav-current{
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color)
+}
+.site-nav-text {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+
+}
+/* ----------------КОНТАКТЫ----------------- */
+.text-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+
+}
+
+/* ------------------------BUTTOM-------------------------- */
+.button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+        color: var(--title--text-color);
+        background-color: var(--accent-color);
+
+}
+/* ----------------------------ПОРТФОЛИО---------------------- */
+.section {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.section-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ------------------------FOOTER------------------------------ */
+.logo-item {
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--accent-color);
+
+}
+.logo-righr {
+    font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--title--text-color);
+}
+.logo-footer {
+    background-color: var(--second-color);
+}
+.contacts-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    
+    color: var(--title--text-color);
+     
+}
