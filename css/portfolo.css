@@ -4,10 +4,8 @@
     --accent-color: #2196F3;
     --primary--bg-color: #ffffff;
     --second-color: #2F303A;
-    --second-text-color: #757575;
-
+    --second-text-color:#757575;
 }
-
 
     .page {
         background-color: #ffffff;
@@ -26,140 +24,159 @@
     
     .link {
         text-decoration: none;
-    }
 
-    /* ------------------LOGO---------------- */
-    .logo-item {
-        font-family: Raleway, sans-serif;
+/* -----------------LOGO---------------- */
+
+.logo-item {
+    font-family: Raleway, sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-
-color: var(--accent-color)
-    }
-
-    .logo-righr {
-        font-family: Raleway, sans-serif;
-        font-style: normal;
+    color: var(--accent-color);
+}
+.logo-righr {
+    font-family: Raleway, sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
-line-height 1.19; 
+line-height: 1.19;
 letter-spacing: 0.03em;
-
-color: var(--primary-text-color);
-    }
-.site-nav-current{
+    color: var(--primary-text-color);
+}
+.link-current {
     font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-
-color: var(--primary-text-color)
+color: var(--primary-text-color);
 }
-.site-nav-text {
-    font-family: Roboto;
+
+.auth-nav {
+    color:var(--second-text-color);
+}
+.header-link {
+    font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 1.14;
+line-height: 16px;
 letter-spacing: 0.02em;
+}
+
+
+/* -------------------- BUTTON----------------- */
+.button-text {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+}
+.button-title {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+/* -------------ПОРТФОЛИО------------------ */
+.section-text {
+font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2x;
+letter-spacing: 0.06em;
+
 color: var(--primary-text-color);
 
 }
-.nav-text {
-    color: var(--primary-text-color);
-}
-
-/* ----------------КОНТАКТЫ----------------- */
-.text-title {
-    font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-
-}
-
-/* ------------------------BUTTOM-------------------------- */
-.button {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-        color: var(--title--text-color);
-        background-color: var(--accent-color);
-
-}
-/* ----------------------------ПОРТФОЛИО---------------------- */
-.section {
-    font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-    color: var(--primary-text-color);
-}
-
 .section-title {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 font-style: normal;
-font-weight: normal;
+font-weight: 400;
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
-    color: #757575;
+
+color: var(--second-text-color);
 }
 
-/* ------------------------FOOTER------------------------------ */
-.logo-item {
+/* ---------------FOOTER------------------- */
+.contacts-title {
     font-family: Raleway;
 font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-
-color: var(--accent-color);
-
-}
-.logo-right {
-    font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 400;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 
 color: var(--title--text-color);
 }
-.logo-footer {
-    background-color: var(--second-color);
-    text-decoration: none;
+
+.contacts-list-item link {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
-.contacts-item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    
+
+.contacts-list-right {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em; 
     color: var(--title--text-color);
+}
+.contacts-item-list {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--title--text-color);
+}
+
+.contacts-item-address {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
 
 }
-.contacts-item {
-    text-decoration: none;  
+.contacts-title {
+    background-color: var(--second-color);
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+.contacts-address, {
+    font-style: none;
+}
+.contacts-title {
+    font-style: none;
 }

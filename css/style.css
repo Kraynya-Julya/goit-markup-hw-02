@@ -69,11 +69,19 @@ line-height: 1.14;
 letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.site-nav. link.curren:hover,
-.site-nav. link.curren:focus { 
-    color: var(--accent-color); 
+.auth-nav-text {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+
+color: var(--second-text-color)
+
 }
-.site-nav-text:hover {
+
+ .auth-nav-text:hover{
     color: var(--accent-color);
 }
 /* ---------------------hero---------------------------- */
@@ -156,6 +164,10 @@ letter-spacing: 0.06em;
 }
 /* ----------------мастера--------------------------- */
 
+.masters {
+    background-color: #E5E5E5;
+}
+
 .masters-title {
     font-family: Roboto, sans-serif;
 font-weight: 500;
@@ -187,17 +199,17 @@ letter-spacing: 0.03em
 /* ----------------------FOOTER--------------------------------- */
 
 .contacts-title {
-    font-family: Roboto, sans-serif;
+    font-family: Raleway;
 font-style: normal;
 font-weight: 400;
-font-size: 14px;
-line-height: 1.14;
+font-size: 26px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-text-transform: uppercas;
-    background: var(--second-color);
+
+color: var(--title--text-color);
 }
 
-.contacts-list-item link {
+.contacts-list-item {
     font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -207,14 +219,14 @@ letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 
-.contacts-list-right link {
-    font-family: Raleway;
+.contacts-list-right {
+    font-family: Raleway, sans-serif;
 font-style: normal;
-font-weight: bold;
+font-weight: 400;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em; 
-    color: var(--primary-text-color);
+    color: var(--title--text-color);
 }
 .contacts-item-list {
     font-family: Roboto;
@@ -227,7 +239,7 @@ letter-spacing: 0.03em;
 }
 
 .contacts-item-address {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -235,6 +247,13 @@ line-height: 1.71;
 letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 
+
+}
+.contacts-title {
+    background-color: var(--second-color);
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);;
 }
 .contacts-address, {
     font-style: none;
