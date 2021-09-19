@@ -4,7 +4,7 @@
     --accent-color: #2196F3;
     --primary--bg-color: #ffffff;
     --second-color: #2F303A;
-    --second-text-color:#757575
+    --second-text-color: #757575;
 
 }
 
@@ -71,13 +71,17 @@ letter-spacing: 0.02em;
 color: var(--primary-text-color);
 
 }
+.nav-text {
+    color: var(--primary-text-color);
+}
+
 /* ----------------КОНТАКТЫ----------------- */
 .text-title {
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: #757575;
 
@@ -131,7 +135,7 @@ letter-spacing: 0.03em;
 color: var(--accent-color);
 
 }
-.logo-righr {
+.logo-right {
     font-family: Raleway;
 font-style: normal;
 font-weight: bold;
@@ -143,6 +147,7 @@ color: var(--title--text-color);
 }
 .logo-footer {
     background-color: var(--second-color);
+    text-decoration: none;
 }
 .contacts-item {
     font-family: Roboto;
@@ -153,5 +158,8 @@ color: var(--title--text-color);
     letter-spacing: 0.03em;
     
     color: var(--title--text-color);
-     
+
+}
+.contacts-item {
+    text-decoration: none;  
 }
