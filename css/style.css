@@ -5,15 +5,8 @@
     --primary--bg-color: #ffffff;
     --second-color: #2F303A;
     --second-text-color:#757575;
-
-
 }
 
-/* основной цвет #000000 */;
-/* Вторичный цвет #FFFFFF */ ;
-/* Акцент #2196F3 */;
-/* задний фон #E5E5E5 */
-/* text #757575 */
 .page {
     background-color: #ffffff;
     color: var(--primary-text-color);
