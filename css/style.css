@@ -6,7 +6,22 @@
     --second-color: #2F303A;
     --second-text-color:#757575;
 }
-
+p,
+h1,
+h1,
+h3,
+h4,
+h5,
+h6{
+    margin: 0px;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+   display: block;
+}
 .page {
     background-color: #ffffff;
     color: var(--primary-text-color);
@@ -25,9 +40,39 @@
 .link {
     text-decoration: none;
 }
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+  }
 /* -----------------------------site-nav---------------------- */
+.logo {
+    margin-right: 90px;
+}
+.site-nav{
+    display: flex;
+}
 
+.header-container{
+    display: flex;
+    margin: 40px;
+}
 
+.header-novigation {
+    display: flex;
+}
+.auth-nav{
+    display: flex;
+    margin-left: auto;
+}
+.header-link {
+    padding-left: 50px;
+}
+.nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
 .logo-item {
     font-family: Raleway, sans-serif;
 font-style: normal;
@@ -84,6 +129,31 @@ color: var(--second-text-color)
     color: var(--accent-color);
 }
 /* ---------------------hero---------------------------- */
+.hero{
+    padding-top: 220px;
+    padding-bottom: 187px;
+    justify-content: center;
+ 
+}
+.hero-title {
+    width: 696px;
+margin: 0 auto;
+margin-bottom: 45px;
+}
+.button{
+    width: 136px;
+height: 30px;
+left: 732px;
+top: 440px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.hero-btn{
+    margin: auto;
+   
+}
 
 .hero{
     background-color: var(--second-color);
@@ -100,7 +170,34 @@ text-transform: uppercase;
     color: var(--title--text-color);   
 }
 
-/* ---------------------section------------------------- */
+/* --------------------- Преимущества------------------------ */
+.mobile-item{
+
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    
+}
+.title {
+    display: flex;
+    margin-bottom: 10px;
+}
+.text-title{
+    margin: 0;
+    width: 270px;
+    
+}
+
+.features-list{
+    display: flex;
+    margin: 0 auto;
+    margin-left: -27px;
+
+}
+.section{
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+
 .section-title {
     font-family: Roboto, sans-serif;
 font-style: normal;
@@ -145,7 +242,21 @@ letter-spacing: 0.03em;
     color: #757575;
 }
 /* --------------галерея----------------- */
-
+.gallery{
+    padding: 47px;
+}
+.gallery-title {
+    padding-bottom: 50px;
+}
+.gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.gallery-item{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+}
 .gallery-title {
     font-family: Roboto;
 font-style: normal;
@@ -173,6 +284,29 @@ letter-spacing: 0.06em;
 }
 /* ----------------мастера--------------------------- */
 
+.masters-title {
+    padding-top: 47px;
+}
+
+.masters-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
+.masters-item{
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+}
+.gallery-text-item{
+    padding: 30px;
+}
+.masters-item-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.masters-item-text{
+    padding-bottom: 10px;
+}
 .masters {
     background-color: #E5E5E5;
 }
@@ -207,6 +341,13 @@ letter-spacing: 0.03em
 }
 /* ----------------------FOOTER--------------------------------- */
 
+.contacts-title{
+    display: flex;
+}
+.contacts-list-item {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
 .contacts-title {
     font-family: Raleway;
 font-style: normal;
