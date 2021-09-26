@@ -29,8 +29,8 @@
         padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 
     }
     img{
@@ -63,7 +63,14 @@
 .nav-item:not(:last-child) {
     margin-right: 50px;
   }
-
+.logo {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 .logo-item {
     font-family: Raleway, sans-serif;
 font-style: normal;
@@ -177,7 +184,7 @@ color: var(--primary-text-color);
 /* -------------ПОРТФОЛИО------------------ */
 
 .button-item-list{
-    flex-basis: calc(100% / 9 - 30px);
+    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
 }
 .gallery-item {
@@ -210,6 +217,17 @@ color: var(--primary-text-color);
   
 /* ---------------FOOTER------------------- */
 
+.contacts-title{
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.contacts-address{
+    padding-top: 30px;
+}
+.contacts-item-list{
+    padding-top: 15px;
+}
 .contacts-title {
     font-family: Raleway;
 font-style: normal;

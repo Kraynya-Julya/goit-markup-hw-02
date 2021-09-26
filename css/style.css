@@ -44,8 +44,8 @@ img{
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
   }
 /* -----------------------------site-nav---------------------- */
 .logo {
@@ -57,7 +57,8 @@ img{
 
 .header-container{
     display: flex;
-    margin: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header-novigation {
@@ -243,15 +244,16 @@ letter-spacing: 0.03em;
 }
 /* --------------галерея----------------- */
 .gallery{
-    padding: 47px;
+    padding-bottom: 47px;
 }
 .gallery-title {
-    padding-bottom: 50px;
+    
 }
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
+    margin-bottom: 60px;
 }
 .gallery-item{
     flex-basis: calc(100% / 3 - 30px);
@@ -283,9 +285,11 @@ letter-spacing: 0.06em;
     background-color: var(--accent-color);
 }
 /* ----------------мастера--------------------------- */
-
-.masters-title {
+.masters{
     padding-top: 47px;
+}
+.masters-title {
+    padding-bottom: 60px;
 }
 
 .masters-list {
@@ -305,7 +309,8 @@ letter-spacing: 0.06em;
     padding-bottom: 30px;
 }
 .masters-item-text{
-    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 93px;
 }
 .masters {
     background-color: #E5E5E5;
@@ -322,8 +327,8 @@ letter-spacing: 0.03em;
 }
 .masrers-item-title {
     font-family: Roboto, sans-serif;
-font-weight: 700;
-font-size: 14px;
+font-weight: 500;
+font-size: 16px;
 line-height: 1.14;
 text-align: center;
 letter-spacing: 0.03em;
@@ -336,17 +341,21 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
 /* ----------------------FOOTER--------------------------------- */
 
 .contacts-title{
     display: flex;
-}
-.contacts-list-item {
     padding-top: 60px;
     padding-bottom: 30px;
+}
+.contacts-address{
+    padding-top: 30px;
+}
+.contacts-item-list{
+    padding-top: 15px;
 }
 .contacts-title {
     font-family: Raleway;
