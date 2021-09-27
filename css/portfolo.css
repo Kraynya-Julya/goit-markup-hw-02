@@ -28,7 +28,7 @@
     .container {
         padding-left: 15px;
     padding-right: 15px;
-    width: 1200px;
+    width: 1250px;
     margin-right: auto;
     margin-left: auto;
 
@@ -80,7 +80,7 @@ line-height: 1.19;
 letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-.logo-righr {
+.logo-right {
     font-family: Raleway, sans-serif;
 font-style: normal;
 font-weight: 700;
@@ -130,6 +130,7 @@ line-height: 1.14;
 letter-spacing: 0.02em;
     color: var(--accent-color);
 }
+
 /* -------------------- BUTTON----------------- */
 
 .item{
@@ -193,7 +194,7 @@ color: var(--primary-text-color);
 }
 
 .gallery-list{
-    width: calc(100% - 90px) / 3;
+   flex-basis: calc(100% / 3 -30px);
     margin-left: 30px;
     margin-top: 30px;
 
