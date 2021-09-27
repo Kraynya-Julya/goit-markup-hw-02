@@ -138,7 +138,7 @@ color: var(--second-text-color)
 }
 .hero-title {
     width: 696px;
-margin: 0 auto;
+margin: auto;
 margin-bottom: 45px;
 }
 .button{
@@ -247,6 +247,7 @@ letter-spacing: 0.03em;
     padding-bottom: 47px;
 }
 .gallery-title {
+   
     
 }
 .gallery-list{
@@ -258,6 +259,7 @@ letter-spacing: 0.03em;
 .gallery-item{
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
+    
 }
 .gallery-title {
     font-family: Roboto;
@@ -271,6 +273,7 @@ letter-spacing: 0.03em;
 }
 
 /*-------------Кнопка---------------------------- */
+
 .button {
     font-family: Roboto;
 font-style: normal;
@@ -305,8 +308,8 @@ letter-spacing: 0.06em;
     padding: 30px;
 }
 .masters-item-bottom{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px;
+
 }
 .masters-item-text{
     padding-top: 10px;
