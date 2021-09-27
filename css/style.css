@@ -141,20 +141,7 @@ color: var(--second-text-color)
 margin: auto;
 margin-bottom: 45px;
 }
-.button{
-    width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
-display: flex;
-justify-content: center;
-align-items: center;
 
-}
-.hero-btn{
-    margin: auto;
-   
-}
 
 .hero{
     background-color: var(--second-color);
@@ -274,6 +261,30 @@ letter-spacing: 0.03em;
 
 /*-------------Кнопка---------------------------- */
 
+.button{
+    width: 136px;
+height: 30px;
+left: 732px;
+top: 440px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.hero-btn{
+    margin: auto;
+   
+}
+.item {
+    flex-basis: calc(100% / 5 - 30px);
+    margin-left: 30px;
+}
+
+.buton-text-item {
+
+}
+
+
 .button {
     font-family: Roboto;
 font-style: normal;
@@ -301,7 +312,7 @@ letter-spacing: 0.06em;
     margin-left: -30px;
 }
 .masters-item{
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc(100% / 5 - 30px);
     margin-left: 30px;
 }
 .gallery-text-item{
