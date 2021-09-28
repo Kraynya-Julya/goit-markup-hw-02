@@ -89,6 +89,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
+
 letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
@@ -129,8 +130,9 @@ color: var(--second-text-color)
  .auth-nav-text:hover{
     color: var(--accent-color);
 }
-/* ---------------------hero---------------------------- */
+/* -----------------------hero---------------------------- */
 .hero{
+    margin: auto;
     padding-top: 220px;
     padding-bottom: 187px;
     justify-content: center;
@@ -158,7 +160,7 @@ text-transform: uppercase;
     color: var(--title--text-color);   
 }
 
-/* --------------------- Преимущества------------------------ */
+/* -------------------------------- Преимущества--------------------------- */
 .mobile-item{
 
     flex-basis: calc(100% / 3 - 30px);
@@ -198,7 +200,7 @@ text-align: center;
 letter-spacing: 0.06em;
     color:var(--primary-text-color);
 }
-/* ---------------------------features-list------------------- */
+/* ---------------------------features-list----------------------------- */
 
 .features-list, title {
     font-family: Roboto, sans-serif;
@@ -273,6 +275,10 @@ align-items: center;
 }
 .hero-btn{
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
    
 }
 .item {
@@ -298,12 +304,10 @@ letter-spacing: 0.06em;
     color: var(--title--text-color);
     background-color: var(--accent-color);
 }
-/* ----------------мастера--------------------------- */
+/* ---------------------------мастера----------------------------------- */
 .masters{
-    padding-top: 47px;
-}
-.masters-title {
-    padding-bottom: 60px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .masters-list {
@@ -319,12 +323,12 @@ letter-spacing: 0.06em;
     padding: 30px;
 }
 .masters-item-bottom{
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
 }
 .masters-item-text{
     padding-top: 10px;
-    padding-bottom: 93px;
 }
 .masters {
     background-color: #E5E5E5;
@@ -358,18 +362,20 @@ text-align: center;
 letter-spacing: 0.03em;
     color: var(--second-text-color);
 }
-/* ----------------------FOOTER--------------------------------- */
-
-.contacts-title{
-    display: flex;
+/* ---------------------------FOOTER------------------------------------ */
+.contacts-title {
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+    padding-left: 125px;
+}
+.contacts-list {
+    margin-left: auto;
 }
 .contacts-address{
-    padding-top: 30px;
+    margin-top: 30px;
 }
 .contacts-item-list{
-    padding-top: 15px;
+    margin-top: 9px;
 }
 .contacts-title {
     font-family: Raleway;
@@ -433,4 +439,3 @@ letter-spacing: 0.03em;
 }
 .contacts-title {
     font-style: none;
-}
