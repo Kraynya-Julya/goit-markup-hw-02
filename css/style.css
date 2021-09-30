@@ -63,6 +63,7 @@ img{
 
 .header-novigation {
     display: flex;
+    align-items: center;
 }
 .auth-nav{
     display: flex;
@@ -233,22 +234,21 @@ letter-spacing: 0.03em;
 }
 /* --------------галерея----------------- */
 .gallery{
-    padding-bottom: 47px;
-}
-.gallery-title {
-   
-    
+    padding-bottom: 94px;
 }
 .gallery-list{
     display: flex;
     flex-wrap: wrap;
     margin-left: -30px;
-    margin-bottom: 60px;
 }
 .gallery-item{
     flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     
+}
+.gallery-title {
+    margin: auto;
+margin-bottom: 50px;
 }
 .gallery-title {
     font-family: Roboto;
@@ -305,7 +305,7 @@ letter-spacing: 0.06em;
     background-color: var(--accent-color);
 }
 /* ---------------------------мастера----------------------------------- */
-.masters{
+.masters-title{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -366,7 +366,6 @@ letter-spacing: 0.03em;
 .contacts-title {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 125px;
 }
 .contacts-list {
     margin-left: auto;

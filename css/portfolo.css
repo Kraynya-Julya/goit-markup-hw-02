@@ -37,6 +37,10 @@
         display: block;
     }
 
+    ul{
+        padding: 0px;
+        margin: 0px;
+    }
 /* -----------------LOGO---------------- */
 .logo {
     margin-right: 90px;
@@ -53,6 +57,7 @@
 
 .header-novigation {
     display: flex;
+    align-items: center;
 }
 .auth-nav{
     display: flex;
@@ -133,7 +138,11 @@ letter-spacing: 0.02em;
 }
 
 /* -------------------- BUTTON----------------- */
-
+.button{
+    margin: auto;
+    padding-top: 93px;
+    padding-bottom: 50px;
+}
 .item{
     display: flex;
     align-items: center;
@@ -201,21 +210,30 @@ color: var(--primary-text-color);
 /* -------------ПОРТФОЛИО------------------ */
 
 
+
 .gallery-item {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
+     margin-left: -30px;
     margin-top: -30px;
 }
 
 .gallery-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    height: 404px;
    flex-basis: calc(100% / 3 -30px);
     margin-left: 30px;
     margin-top: 30px;
 
 }
 .masters-item-bottom{
-    padding: 30px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
 }
 .gallery-text-item{
     margin: auto;
@@ -242,13 +260,16 @@ color: var(--primary-text-color);
 
   
 /* ---------------FOOTER------------------- */
+ul{
+    padding: 0px;
+    margin: 0px;
+    }
 .contacts-title {
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 125px;
 }
 .contacts-list {
-    margin-left: auto;
+    margin: auto;
 }
 .contacts-address{
     margin-top: 30px;
