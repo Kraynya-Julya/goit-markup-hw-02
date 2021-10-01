@@ -264,22 +264,18 @@ letter-spacing: 0.03em;
 /*-------------Кнопка---------------------------- */
 
 .button{
-    width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
 display: flex;
 justify-content: center;
 align-items: center;
+padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 }
 .hero-btn{
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-   
+    
 }
 .item {
     flex-basis: calc(100% / 5 - 30px);
@@ -305,7 +301,7 @@ letter-spacing: 0.06em;
     background-color: var(--accent-color);
 }
 /* ---------------------------мастера----------------------------------- */
-.masters-title{
+.masters{
     padding-top: 94px;
     padding-bottom: 94px;
 }
